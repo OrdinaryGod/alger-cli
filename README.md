@@ -2,8 +2,8 @@
 
 
 ## Documentation
-这是一套 前端UI 工程脚手架，用于帮助快速创建 web端、移动端 工程。该脚手架支持以 webpack 和 vite 为构建工具的 Vue 和 React 工程
+这是一套前端工程脚手架，用于帮助快速创建主流前端工程。该脚手架主要支持以 webpack 和 vite 为构建工具的 Vue3+ 和 React18+ 工程。
 
 
 ## License
-[MIT](https://github.com/vuejs/vue-cli/blob/dev/LICENSE)
+[ISC](https://github.com/OrdinaryGod/alger-cli/blob/main/LICENSE)
