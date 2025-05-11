@@ -1,0 +1,22 @@
+{
+  "name": "@alger/cli",
+  "version": "1.0.0",
+  "description": "...desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/algergum/alger-cli.git"
+  },
+  "keywords": [
+    "alger-cli"
+  ],
+  "author": "algergum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/algergum/alger-cli/issues"
+  },
+  "homepage": "https://github.com/algergum/alger-cli#readme"
+}
