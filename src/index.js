@@ -4,8 +4,6 @@ import { program } from 'commander';
 import inquirer from 'inquirer';
 import { isExistFile, downloadTemplate } from './util.js';
 
-console.log('alger-cli: Running alg-cli...');
-
 let packageJson;
 try {
     packageJson = JSON.parse(fs.readFileSync(new URL('../package.json', import.meta.url)));
@@ -16,12 +14,9 @@ try {
 
 const version = packageJson.version;
 
-program.command('version')
-    .alias('v')
-    .description('Show version number')
-    .action(() => {
-        console.log(`alger-cli version: ${version}`);
-    });
+program.version(version, '-v, --version', 'output the current version');
+
+console.log('alger-cli: Running alg-cli...');
 
 program.command('create <projectName>')
     .alias('c')
